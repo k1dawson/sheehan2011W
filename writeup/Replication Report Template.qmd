@@ -3,7 +3,7 @@ title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
 author: "Replication Author[s] (contact information)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
-  html:
+  pdf:
     toc: true
     toc_depth: 3
 ---
@@ -18,9 +18,9 @@ This paper developed a behavioral paradigm used to measure the capability of fac
 
 I will need to simulate the raw learning curve data of the wasps for each trial and in each condition. I plan to do a 2x3 study (2 species of wasp x 3 stimuli conditions of face, caterpillar, and pattern) with n=480 trials in each condition (12 wasps with 40 trials each). This is a total of 2880 trials across all conditions with 72 simulated wasps (36 from each species). In order to simulate learning data, I need to be able to increase the likelihood of a correct trial for each wasp at each iteration. The difficult part in doing this simulation will be figuring out how to capture the individual variation in learning ability for each wasp, which will be affected by its species and condition placement. After I have this data, I will need to use generalized estimating equations (GEE) to analyze learning curves with respect to individual wasp differences. Another difficulty will be in understanding how to implement this model and interpret the results.
 
-link to project repo: https://github.com/k1dawson/sheehan2011
-link to original paper in repo: https://github.com/k1dawson/sheehan2011/tree/main/original_paper
-link to original paper publishing site: https://www.science.org/doi/10.1126/science.1211334
+[link to project repo](https://github.com/k1dawson/sheehan2011)\
+[link to original paper in repo](https://github.com/k1dawson/sheehan2011/tree/main/original_paper)\
+[link to original paper publishing site](https://www.science.org/doi/10.1126/science.1211334)\
 
 
 ## Methods
